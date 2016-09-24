@@ -42,6 +42,9 @@
 		}
 		table {
 			padding: 50px;
+			padding-right: 130px;
+			padding-left: 130px;
+			border:1px solid black;
 		}
 		h1,h3 {
 			text-align: center;
@@ -51,28 +54,35 @@
 			margin : 50px;
 			margin-left: 100px;
 			margin-right: 100px;
+		}
+		img {
+			padding-top: 10px;
+		}
+		form {
+			padding-top: 30px;
+			padding: 20px;
 		}	
 	</style>
 </head>
 <body>
 <header>
-	<img src="image/logo.png" height="400px" width="400px"></img>
+	<img src="image/logo.png" height="150px" width="300px"></img>
 </header>
 <hr>
-<form method="POST" action="login.php">
+<form method="POST" action="login.php" id="form1">
 <h1>스마트팜 체크리스트 점검 시스템</h1>
 <table align="center"> 
          <tr>    
-                <td width="75">ID </td>
+                <td width="50">ID </td>
                 <td><input type="text" name="ID" class="form-control"></td>
          </tr>
          <tr>
-                <td width="75">PW </td>
+                <td width="50">PW </td>
                 <td><input type="password" name="PW" class="form-control"></td>
          </tr>
          <tr>
 		<td></td>
-                <td style="text-align:right;"><button type="submit" id="button" formaction="login.php">Login</button></td>
+                <td style="text-align:right;"><button type="submit" form="form1" id="button" formaction="login.php">Login</button></td>
          </td>
  </table>
  </form>
