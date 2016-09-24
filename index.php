@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-        <meta charset "utf-8">
+        <meta charset="utf-8">
 	<title>니팜내팜 Login</title>
 	<style>
 		input[type="text"] {
