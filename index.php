@@ -1,68 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel='stylesheet' type='text/css' href='nfnf.css' />
         <meta charset="utf-8">
 	<title>니팜내팜 Login</title>
-	<style>
-		input[type="text"] {
-		  margin-bottom: 0px;
-		  border-bottom-left-radius: 0;
-		  border-bottom-right-radius: 0;
-		}
-
-		input[type="password"] {
-		 margin-bottom: 20px;
- 		 border-top-left-radius: 0;
- 		 border-top-right-radius: 0;
-		}
-		.form-control {
-		  position: relative;
-		  font-size: 16px;
-		  height: auto;
-		  padding: 10px;
-		}
-		#button {
-  		  background-color: #4CAF50; /* Green */
-  		  border: none;
-  		  color: white;
-  		  padding: 10px 32px;
-  		  text-align: center;
-  		  text-decoration: none;
-  		  display: inline-block;
-  		  font-size: 16px;
-		  
-		}
-		body {
-			margin-left: 300px;
-			margin-right: 300px;
-			border:1px solid black;
-		}
-		table, td{
-			font-size: 20px;
-		}
-		table {
-			padding: 50px;
-			padding-right: 130px;
-			padding-left: 130px;
-			border:1px solid black;
-		}
-		h1,h3 {
-			text-align: center;
-		}
-		h3 {
-			border: 1px solid black;
-			margin : 50px;
-			margin-left: 100px;
-			margin-right: 100px;
-		}
-		img {
-			padding-top: 10px;
-		}
-		form {
-			padding-top: 30px;
-			padding: 20px;
-		}	
-	</style>
 </head>
 <body>
 <header>
